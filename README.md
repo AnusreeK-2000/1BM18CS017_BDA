@@ -3,3 +3,5 @@
 #### LAB2 - Cassandra ( Keyspace Employee and Keyspace Library)
 #### LAB3 - MongoDB
 #### LAB4 - Hadoop HDFS Commands
+#### LAB5 - WordCount
+#### LAB6 - Sort
