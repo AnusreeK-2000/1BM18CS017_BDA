@@ -5,3 +5,4 @@
 #### LAB4 - Hadoop HDFS Commands
 #### LAB5 - WordCount
 #### LAB6 - Sort
+#### LAB7 - Average temperature using NCDC data set.
