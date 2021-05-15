@@ -10,7 +10,7 @@ public class AverageMapper extends Mapper<LongWritable, Text, Text, IntWritable>
 	public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException
 	{
 		String line = value.toString();
-		String month = line.substring(19,21);
+		String month = line.substring(15,19);
 		int temperature;
 		if (line.charAt(87)=='+')
 				temperature = Integer.parseInt(line.substring(88, 92));
