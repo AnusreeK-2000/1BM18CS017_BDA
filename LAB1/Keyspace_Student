@@ -5,12 +5,13 @@ students  system_schema  system_auth  system  system_distributed  system_traces
 
 cqlsh> USE Students
    ... ;
-cqlsh:students> CREATE TABLE Student_info{
+cqlsh:students> CREATE TABLE Student_info(
             ... RollNo int PRIMARY KEY,
             ... Name text,
             ... DateOfJoin timestamp,
-            ... LastExamPercent doule
-            ... };
+            ... LastExamPercent double,
+            ... PRIMARY KEY(RollNo)
+            ... );
 
 cqlsh:students> DESCRIBE TABLE Student_info;
 
