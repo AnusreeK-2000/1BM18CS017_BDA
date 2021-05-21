@@ -5,4 +5,4 @@
 #### LAB4 - Hadoop HDFS Commands
 #### LAB5 - WordCount
 #### LAB6 - Sort
-#### LAB7 - Average temperature using NCDC data set.
+#### LAB7 - Average temperature for each year and mean max temperature for every month using NCDC data set.
