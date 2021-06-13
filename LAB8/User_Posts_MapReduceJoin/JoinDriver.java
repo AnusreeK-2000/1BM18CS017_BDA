@@ -23,7 +23,7 @@ public class JoinDriver extends Configured implements Tool {
 	public int run(String[] args) throws Exception {
 
 		if (args.length != 3) {
-			System.out.println("Usage: <Department Emp Strength input> <Department Name input> <output>");
+			System.out.println("Usage: <Posts input> <Users input> <output>");
 			return -1;
 		}
 
